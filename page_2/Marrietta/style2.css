@@ -1,0 +1,211 @@
+@import url("https://fonts.cdnfonts.com/css/google-sans");
+:root {
+  --bg-main-color: #fcf2db;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+}
+body {
+  font-family: "Product Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.clip-div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-main-color);
+  z-index: -1;
+
+  clip-path: polygon(0 0, 100% 0, 100% 40vh, 0 78%);
+}
+
+.form-toggle{
+    display: none;
+}
+
+.billing-info,
+.payment-info,
+.personal-info {
+  /* border: 2px solid red; */
+  flex-basis: 45%;
+  align-self: center;
+  /* position: absolute; */
+}
+
+.tab-nav {
+  position: relative;
+  margin: 3rem 0rem;
+}
+h1 {
+  font-size: 3.6rem;
+  color: #4e598c;
+}
+li {
+  font-size: 2.4rem;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #f2994a;
+}
+
+.li-active {
+  color: #f2994a;
+}
+
+.nav__item--active {
+  color: #f2994a;
+}
+
+.tab-list {
+  list-style: none;
+  margin-bottom: 1.4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-line {
+  color: black;
+  border-top: 0.1rem solid #000000;
+}
+
+.tab-line::before {
+  content: "";
+  position: absolute;
+  left: 30%;
+  top: -0.3rem;
+  background-color: #f2994a;
+  padding: 0.4rem;
+  border-radius: 3rem;
+  width: 32%;
+}
+
+/* LINE MODIFICATION PSEUDO ELEMENT */
+.modify-left::before {
+  left: 0%;
+}
+.modify-center::before {
+  left: 30%;
+}
+.modify-right::before {
+  left: 70%;
+}
+
+.input-container {
+  flex-basis: 150%;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+
+input,
+select {
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid grey;
+}
+input,
+label {
+  display: block;
+  font-size: 1.8rem;
+}
+label {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.billing-form {
+  margin: 2rem 0rem;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.--card-details {
+  flex: 6;
+}
+.--card-date {
+  flex: 3;
+  margin: 0rem 2rem;
+}
+.--card-cvv {
+  flex: 1;
+}
+
+.action-div {
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+.next-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 100%;
+  padding: 1rem;
+  background: linear-gradient(180deg, #f2c94c 0%, #f2994a 100%);
+
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.cancel-btn {
+  text-decoration: none;
+  columns: #4e598c;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 1rem 5rem;
+}
+
+/* /////////////////////////////////////////////////////// */
+/* TODO: PERSONAL INFO STYLE */
+
+.personal-info,
+.payment-info {
+  display: none;
+  align-self: center;
+  /* border: 3px solid green; */
+}
+
+.personal-info h1 {
+  text-align: center;
+}
+
+/* TO ADD AND REMOVE DISPLAY WE ADD A PSEUDO CLASS */
+.remove {
+  display: none;
+}
+
+.insert {
+  display: block;
+}
