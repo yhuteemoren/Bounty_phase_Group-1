@@ -1,0 +1,155 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    background-image: url(image/Vector\ slash.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*height: 100vh;
+    width: 100vw;*/
+}
+.page{
+    margin: 160px 320px;
+    font-family: 'Product Sans', sans-serif;
+    /*overflow: hidden;*/
+    /*height: 40vh;*/
+}
+#head{
+    color: #4E598C;
+    font-size: 36px;
+    padding-left: 40px;
+    margin: 40px 20px;
+}
+.pinfo{
+    color: #bdbdbd;
+    padding-left: 30px;
+}
+.binfo{
+    color: rgba(242, 153, 74, 1);
+}
+.confirm{
+    color: rgba(189, 189, 189, 1);
+    padding-right: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    width: 750px;
+    margin: 80px 30px 30px 30px;
+}
+.pr{
+    margin: -10px 50px 20px 50px;
+}
+.rule{
+    width: 700px;
+    margin-top: 40px;
+}
+.progress{
+    background-color: rgba(242, 153, 74, 1);
+    width: 170px;
+    height: 13px;
+    border-radius: 10px;
+    position: absolute;
+    left: 620px;
+    top: 327px;
+}
+.bhead{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    margin: 55px;
+    padding: 20px;
+}
+.blue{
+    background-color: #2F80ED;
+    border-radius: 16px 16px 0  0;
+}
+.white{
+    margin: 50px;
+    border-radius: 0 0 16px 16px;
+    height: 250px;
+}
+.naira{
+    position: absolute;
+    top: 416px;
+    left: 910px;
+}
+.price{
+    font-weight: 700;
+}
+.pricee{
+    font-weight: 700;
+    color: black;
+}
+.science{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #4E598C;
+    font-size: 20px;
+    margin: 30px ;
+}
+.shipping{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #4E598C;
+    font-size: 20px;
+    margin: 30px;
+}
+.tr{
+    margin: 40px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #4E598C;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #817E9E;
+    border-radius: 5px;
+    width: 580px;
+    height: 25px;
+}
+.card{
+    box-shadow: rgba(33, 30, 67, 0.08) 0 10px 15px;
+    height: 415px;
+    width: 756px;
+    border-radius: 16px 16px 10px 10px;
+    background-color: white;
+    margin: 60px auto;
+}
+.payment{
+    margin: 60px 20px;
+}
+#pay{
+    width: 233px;
+    height: 66px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(#F2C94C, #F2994A);
+}
+#pay:hover{
+    box-shadow: #ebcbaf 3px 5px 15px;
+    background-image: linear-gradient( #F2994A, #F2994A);
+    cursor: pointer;
+}
+.cancel{
+    margin-left: 94px;
+    color: #4E598C;
+    font-weight: 700;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:#4E598C; 
+}
