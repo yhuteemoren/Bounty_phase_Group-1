@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./Vector\ 55.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1700px 450.5px;
+}
+
+:root {
+  --clr-heading: #4e598c;
+  --border: 10px;
+}
+
+section {
+  width: 40vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+/* heading */
+.heading {
+  color: var(--clr-heading);
+  width: 405px;
+  height: 50px;
+}
+.heading-text {
+  padding-top: 30px;
+}
+/* nav */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+  color: grey;
+  font-size: 25px;
+}
+.personal-info {
+  color: #f2c944;
+}
+.border {
+  background-color: #f2c944;
+  width: 150px;
+  height: 13px;
+  border-radius: 10px;
+  position: relative;
+  top: -38px;
+}
+/* form */
+#name,
+#email,
+#address,
+#address2 {
+  width: 100%;
+  border-radius: var(--border);
+  border: 1px solid grey;
+  padding: 12px 20px;
+  margin: 20px 0;
+}
+.container-2 {
+  display: flex;
+  justify-content: ;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+}
+.text {
+  padding: 10px 0;
+  color: grey;
+}
+
+.localGov {
+  width: 100%;
+}
+#localGov {
+  width: 400px;
+  margin: 17px 0;
+  padding: 12px 20px;
+  border-radius: var(--border);
+}
+#state {
+  width: 250px;
+  padding: 12px 20px;
+  border-radius: var(--border);
+}
+
+/* next and cancel payment */
+.container-3 {
+  margin: 30px 0;
+  font-size: 18px;
+  display: block;
+}
+
+.btn {
+  width: 233px;
+  height: 66px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-image: linear-gradient(#f2c94c, #f2994a);
+}
+a {
+  text-decoration: none;
+}
+.btn-2 {
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--clr-heading);
+  padding-left: 150px;
+  font-size: 16px;
+}
