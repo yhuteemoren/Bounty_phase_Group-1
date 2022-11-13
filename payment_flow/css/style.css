@@ -1,23 +1,33 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
 body {
   background-image: url(/images/Vector\ 55.png);
-  background-position: absolute;
-  /* width: 1440px;
-  height: 1114px;
-  margin-top: -35px;
-  margin-left: 4086px; */
+  background-position: none;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  /* width: 1500px; */
+  height: 1150px;
+  display: flex;
+  /* top: -354px; */
+  /* left: 4086px; */
+  /* align-items: center; */
+  /* margin: auto; */
 }
 .container div {
-  width: 802px;
-  height: 480px;
-  top: 342px;
+  /* width: 802px;
+  height: 480px; */
+  /* top: 342px; */
   border-radius: 10px;
-  right: 22px;
-  left: 128px;
+  /* right: 22px;
+  left: 128px; */
   background-color: #ffffff;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  justify-content:right;
+  align-items: center;
+  padding: 34px;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
 }
 
 h2 {
@@ -27,6 +37,7 @@ h2 {
   font-size: 48px;
   line-height: 68px;
   color: #4e598c;
+  align-items: center;
 }
 .p {
   font-family: "product sans" sans-serif;
@@ -42,5 +53,14 @@ h2 {
   font-weight: 400%;
   font-size: 20px;
   line-height: 30px;
-  color: #af821f;
+  color: #d09413;
+}
+.circle {
+  position: absolute;
+  left: 200px;
+  }
+.tick {
+  position: absolute;
+  left: 200px;
+  /* bottom: 50px; */
 }
