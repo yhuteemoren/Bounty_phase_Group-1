@@ -1,20 +1,22 @@
  *{
     margin: 0 ;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-image: url(image/Vector\ slash.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    /*height: 100vh;
-    width: 100vw;*/
+    /* min-width: 1440px; */
+    /* width: 100%; */
 }
 .page{
-    margin: 160px 320px;
+    margin: 122px auto;
     font-family: 'Product Sans', sans-serif;
-    /*overflow: hidden;*/
-    /*height: 40vh;*/
+    width: 800px;
+    overflow: hidden;
+    /* height: 80vh; */
 }
 #head{
     color: #4E598C;
@@ -75,8 +77,8 @@ body{
 }
 .naira{
     position: absolute;
-    top: 416px;
-    left: 910px;
+    top: 420px;
+    left: 930px;
 }
 .price{
     font-weight: 700;
@@ -110,12 +112,15 @@ body{
     background-color: white;
     color: #4E598C;
     font-size: 20px;
-    padding: 20px;
-    margin: 20px;
+    padding: 14px;
+    margin: auto;
     border: 1px solid #817E9E;
     border-radius: 5px;
-    width: 580px;
-    height: 25px;
+    width: 600px;
+    height: 50px;
+}
+.total p{
+    height: 10px;
 }
 .card{
     box-shadow: rgba(33, 30, 67, 0.08) 0 10px 15px;
@@ -126,7 +131,7 @@ body{
     margin: 60px auto;
 }
 .payment{
-    margin: 60px 20px;
+    margin: 60px 20px ;
 }
 #pay{
     width: 233px;
@@ -142,6 +147,10 @@ body{
     box-shadow: #ebcbaf 3px 5px 15px;
     background-image: linear-gradient( #F2994A, #F2994A);
     cursor: pointer;
+}
+#paylink{
+    color: white;
+    text-decoration: none;
 }
 .cancel{
     margin-left: 94px;
