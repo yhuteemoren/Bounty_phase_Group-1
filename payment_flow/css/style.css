@@ -1,0 +1,62 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+body {
+  background-image: url(/images/Vector\ 55.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container div {
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  /* margin: auto; */
+  background-color: #ffffff;
+  /* align-items: center; */
+  padding: 110px;
+  box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
+}
+
+h2 {
+  font-family: "product sans" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  /* line-height: 68px; */
+  color: #4e598c;
+  /* align-items: center; */
+}
+.p {
+  font-family: "product sans" sans-serif;
+  font-style: normal;
+  font-weight: 400%;
+  font-size: 20px;
+  /* line-height: 30px; */
+  color: #4f4f4f;
+}
+a {
+  font-family: "product sans" sans-serif;
+  font-style: normal;
+  font-weight: 400%;
+  font-size: 20px;
+  /* line-height: 30px; */
+  color: #e88529;
+}
+.circle {
+  position: relative;
+  left: 240px;
+  top: 20px;
+  /* align-items: center; */
+}
+.tick {
+  position: relative;
+  left: 175px;
+  top: 2px;
+}
